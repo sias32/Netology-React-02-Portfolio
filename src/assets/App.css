@@ -1,0 +1,26 @@
+#root {
+  text-align: center;
+}
+
+.filters {
+  margin: 25px;
+}
+
+.filters button {
+  margin: 0 2px;
+  border: 2px solid rgb(154, 69, 69);
+  border-radius: 4px;
+  background-color: rgb(177, 134, 134);
+}
+
+.ProjectList {
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+}
+
+.ProjectList img {
+  width: 250px;
+  height: auto;
+}
